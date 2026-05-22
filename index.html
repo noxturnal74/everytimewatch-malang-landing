@@ -4,107 +4,61 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Everytimewatch | Watch boutique</title>
-  <meta name="description" content="A minimal trust-first boutique page for servicing, buying, and consulting about watches. Every interaction points to confidence, warranty, and careful handling.">
+  <meta name="description" content="Reduce trust friction around servicing, authenticity, warranty, and curated watch purchases.">
   <meta property="og:title" content="Everytimewatch">
-  <meta property="og:description" content="A minimal trust-first boutique page for servicing, buying, and consulting about watches. Every interaction points to confidence, warranty, and careful handling.">
+  <meta property="og:description" content="Reduce trust friction around servicing, authenticity, warranty, and curated watch purchases.">
   <meta property="og:image" content="./assets/hero.svg">
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./styles.css">
 </head>
-<body class="theme-minimal">
-  <header class="site-header">
+<body class="theme-watch" data-layout="watch" data-motion-profile="watch">
+  <header class="site-header watch-nav">
     <a class="logo-lockup" href="#top" aria-label="Everytimewatch home">
       <img src="./assets/logo.svg" alt="Logo Everytimewatch" data-fallback-logo>
       <span class="logo-fallback">EW</span>
       <strong>Everytimewatch</strong>
     </a>
-    <nav aria-label="Primary"><a href="#service">Service</a><a href="#collection">Collection</a><a href="#trust">Warranty</a><a href="#location">Consult</a></nav>
+    <nav aria-label="Primary"><a href="#atelier">Atelier</a><a href="#ledger">Ledger</a><a href="#guarantee">Guarantee</a><a href="#visit">Consult</a></nav>
   </header>
-
   <main id="top">
-    <section class="hero" style="--hero-image:url('./assets/hero.svg')">
-      <div class="hero-overlay"></div>
-      <div class="hero-copy">
-        <p class="eyebrow">Watch service and original watches</p>
-        <h1>Premium care for watches that carry value.</h1>
-        <p>A minimal trust-first boutique page for servicing, buying, and consulting about watches. Every interaction points to confidence, warranty, and careful handling.</p>
-        <div class="actions">
-          <a class="button primary" href="https://linktr.ee/everytimewatch" target="_blank" rel="noreferrer">Consult a Watch</a>
-          <a class="button ghost" href="https://www.instagram.com/everytimewatch" target="_blank" rel="noreferrer">Open Instagram</a>
-        </div>
+    <section class="watch-hero" style="--hero-image:url('./assets/hero.svg')">
+      <div class="watch-title">
+        <p class="eyebrow">Service / original watches / warranty</p>
+        <h1>Timepieces deserve a quieter, more precise consultation.</h1>
       </div>
-      <aside class="identity-card">
-        <img src="./assets/logo.svg" alt="" data-fallback-logo>
-        <span class="logo-fallback big">EW</span>
-        <em>Minimalist / Apple-style trust landing</em>
-        <p>Veteran Malang</p>
-        <strong>Watch boutique</strong>
-      </aside>
+      <aside class="watch-dial"><img src="./assets/logo.svg" alt=""><span>Daily 10:00-21:00, consultation by appointment</span></aside>
     </section>
-
-    <section class="visual-strip" aria-label="Everytimewatch campaign visuals">
-      <figure style="--image:url('./assets/gallery-1.svg')"><figcaption>Watch Service</figcaption></figure>
-      <figure style="--image:url('./assets/gallery-2.svg')"><figcaption>Curated Collection</figcaption></figure>
-      <figure style="--image:url('./assets/gallery-3.svg')"><figcaption>Trust and Warranty</figcaption></figure>
+    <section id="atelier" class="atelier-sequence">
+      <div><p class="eyebrow">Private service path</p><h2>Reduce trust friction around servicing, authenticity, warranty, and curated watch purchases.</h2><div class="source-links"><a href="https://linktr.ee/everytimewatch" target="_blank" rel="noreferrer">Everytimewatch Linktree</a><a href="https://www.instagram.com/everytimewatch" target="_blank" rel="noreferrer">Everytimewatch Instagram</a></div></div>
+      <ol><li>Send watch model</li><li>Upload issue photo</li><li>Receive care recommendation</li><li>Confirm service slot</li><li>Collect with warranty note</li></ol>
     </section>
-
-    <section class="source-insights" aria-label="Everytimewatch public research">
-      <div class="insight-copy">
-        <p class="eyebrow">Field Notes</p>
-        <h2>Make watch care feel premium and safe with calm spacing, warranty language, and direct consultation CTA.</h2>
-        <p>Design direction: Minimalist / Apple-style trust landing.</p>
-        <div class="source-links"><a href="https://linktr.ee/everytimewatch" target="_blank" rel="noreferrer">Everytimewatch Linktree</a><a href="https://www.instagram.com/everytimewatch" target="_blank" rel="noreferrer">Everytimewatch Instagram</a></div>
-      </div>
-      <div class="insight-grid">
-        <article><span>01</span><p>Public profile states watch-related service plus original watches with official warranty messaging.</p></article><article><span>02</span><p>Veteran Malang address and review links make location trust a core selling point.</p></article><article><span>03</span><p>WhatsApp, payment, Tokopedia, Instagram, and TikTok links support a consultation-to-purchase path.</p></article>
-      </div>
+    <section id="ledger" class="watch-ledger">
+      <div><p class="eyebrow">Service ledger</p><h2>Transparent care options before the watch changes hands.</h2></div>
+      <div><article><span>Battery Care</span><strong>from Rp50k</strong><p>battery replacement and inspection</p></article><article><span>Strap Refresh</span><strong>from Rp85k</strong><p>strap fitting and polish check</p></article><article><span>Full Check</span><strong>by quote</strong><p>condition review before repair</p></article></div>
     </section>
-
-    <section id="service" class="brand-section section-1">
-      <div class="section-copy">
-        <p class="eyebrow">Watch Service</p>
-        <h2>Battery, strap, cleaning, and inspection with boutique clarity.</h2>
-      </div>
-      <div class="section-panel">
-        <article><span>EW</span><strong>Battery replacement</strong></article><article><span>EW</span><strong>Strap refresh</strong></article><article><span>EW</span><strong>Care inspection</strong></article>
-      </div>
-    </section><section id="collection" class="brand-section section-2">
-      <div class="section-copy">
-        <p class="eyebrow">Curated Collection</p>
-        <h2>Original watches presented with calm premium pacing.</h2>
-      </div>
-      <div class="section-panel">
-        <article><span>EW</span><strong>Original pieces</strong></article><article><span>EW</span><strong>Gift-ready options</strong></article><article><span>EW</span><strong>Collection inquiry</strong></article>
-      </div>
-    </section><section id="trust" class="brand-section section-3">
-      <div class="section-copy">
-        <p class="eyebrow">Trust and Warranty</p>
-        <h2>Service decisions feel safer when the proof is visible.</h2>
-      </div>
-      <div class="section-panel">
-        <article><span>EW</span><strong>Warranty messaging</strong></article><article><span>EW</span><strong>Location clarity</strong></article><article><span>EW</span><strong>Consultation route</strong></article>
-      </div>
+    <section id="guarantee" class="guarantee-wall">
+      <article><span>01</span><p>Public profile mentions service related watches and original watches.</p></article><article><span>02</span><p>Payment and marketplace routes support buyer trust.</p></article><article><span>03</span><p>Veteran Malang address anchors local credibility.</p></article>
+      <div class="policy-panel"><h2>Warranty and authenticity questions are answered before service.</h2><p>Service quotation is confirmed before work begins.</p><p>Warranty terms depend on service type.</p><p>Product availability must be confirmed by admin.</p></div>
     </section>
-
-    <section id="location" class="location">
-      <div>
-        <p class="eyebrow">Consult</p>
-        <h2>Jl. Veteran Malang No.2, Penanggungan, Malang</h2>
-        <p>WhatsApp via Linktree</p>
-        <div class="actions">
-          <a class="button primary" href="https://linktr.ee/everytimewatch" target="_blank" rel="noreferrer">Consult a Watch</a>
-          <a class="button ghost" href="https://linktr.ee/everytimewatch" target="_blank" rel="noreferrer">Public profile</a>
-        </div>
+    <section class="faq-minimal"><details><summary>Do you handle battery replacement?</summary><p>Handled through Everytimewatch official booking channel before arrival.</p></details><details><summary>How is authenticity explained?</summary><p>Handled through Everytimewatch official booking channel before arrival.</p></details><details><summary>Can I reserve a watch before visiting?</summary><p>Handled through Everytimewatch official booking channel before arrival.</p></details></section>
+    <section id="visit" class="visit-panel">
+    <div>
+      <p class="eyebrow">Visit / Contact</p>
+      <h2>Jl. Veteran Malang No.2, Penanggungan, Malang</h2>
+      <p>Daily 10:00-21:00, consultation by appointment</p>
+      <p>WhatsApp via Linktree</p>
+      <div class="actions">
+        <a class="button primary" href="https://linktr.ee/everytimewatch" target="_blank" rel="noreferrer">Open Official Profile</a>
+        <a class="button ghost" href="https://www.instagram.com/everytimewatch" target="_blank" rel="noreferrer">Instagram</a>
       </div>
-      <iframe title="Everytimewatch map" src="https://www.google.com/maps?q=Jl.%20Veteran%20Malang%20No.2%2C%20Penanggungan%2C%20Malang&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
+    </div>
+    <iframe title="Everytimewatch map" src="https://www.google.com/maps?q=Jl.%20Veteran%20Malang%20No.2%2C%20Penanggungan%2C%20Malang&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
   </main>
-
   <footer>
-    <span>Everytimewatch website concept, tailored for Watch boutique.</span>
+    <span>The interface behaves like a luxury service appointment, not a generic retail page.</span>
     <a href="https://wa.me/6289506753131?text=Halo%20Albert,%20saya%20mau%20dibuatkan%20website%20brand%20seperti%20demo%20ini." target="_blank" rel="noreferrer">Website by Albert Saputra</a>
   </footer>
-
   <script src="./script.js"></script>
 </body>
 </html>

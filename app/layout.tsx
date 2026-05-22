@@ -1,9 +1,9 @@
 export const metadata = {
   title: "Everytimewatch | Watch boutique",
-  description: "A minimal trust-first boutique page for servicing, buying, and consulting about watches. Every interaction points to confidence, warranty, and careful handling.",
+  description: "Reduce trust friction around servicing, authenticity, warranty, and curated watch purchases.",
   openGraph: {
     title: "Everytimewatch",
-    description: "A minimal trust-first boutique page for servicing, buying, and consulting about watches. Every interaction points to confidence, warranty, and careful handling.",
+    description: "Reduce trust friction around servicing, authenticity, warranty, and curated watch purchases.",
     images: ["./assets/hero.svg"],
   },
 };

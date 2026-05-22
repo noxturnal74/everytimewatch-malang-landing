@@ -1,36 +1,34 @@
 # Everytimewatch
 
-Standalone landing page for Watch boutique.
+Production-grade single-page concept for Watch boutique.
 
-## Design concept
+## Visual philosophy
 
-Minimalist / Apple-style trust landing
+Cinematic horology editorial with asymmetrical whitespace, serif detail, and macro-inspired product surfaces.
 
-## Conversion goal
+## Business logic
 
-Make watch care feel premium and safe with calm spacing, warranty language, and direct consultation CTA.
+Reduce trust friction around servicing, authenticity, warranty, and curated watch purchases.
 
-## Deployment notes
+## Storytelling structure
 
-- Static site entry: `index.html`
-- Local assets: `assets/`
-- Asset paths use relative `./assets/...`
-- `vercel.json` keeps `outputDirectory` at `.`
-- Logo fallback is handled in `script.js`
-- Hero fallback is a CSS gradient behind `./assets/hero.svg`
-- Parallax uses `requestAnimationFrame` in `script.js`
+Visitor moves from care promise to service process, authenticity guarantee, collection inquiry, and private consultation.
 
-## Brand-specific sections
+## Motion system
 
-- Watch Service: Battery, strap, cleaning, and inspection with boutique clarity.
-- Curated Collection: Original watches presented with calm premium pacing.
-- Trust and Warranty: Service decisions feel safer when the proof is visible.
+Slow dial rotation, gentle text reveal, no aggressive transitions.
 
-## Public research injected
+## Conversion strategy
 
-- Public profile states watch-related service plus original watches with official warranty messaging.
-- Veteran Malang address and review links make location trust a core selling point.
-- WhatsApp, payment, Tokopedia, Instagram, and TikTok links support a consultation-to-purchase path.
+Primary route is watch consultation; secondary route is collection inquiry.
+
+## Operational content included
+
+- Hours: Daily 10:00-21:00, consultation by appointment
+- Contact: WhatsApp via Linktree
+- Pricing/offer cards: Battery Care from Rp50k, Strap Refresh from Rp85k, Full Check by quote
+- Workflow: Send watch model -> Upload issue photo -> Receive care recommendation -> Confirm service slot -> Collect with warranty note
+- Policies: Service quotation is confirmed before work begins. / Warranty terms depend on service type. / Product availability must be confirmed by admin.
 
 ## Source links
 
