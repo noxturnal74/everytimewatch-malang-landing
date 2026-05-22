@@ -9,6 +9,23 @@ export const brandConfig = {
   "contact": "WhatsApp via Linktree",
   "publicLink": "https://linktr.ee/everytimewatch",
   "instagram": "https://www.instagram.com/everytimewatch",
+  "designConcept": "Minimalist / Apple-style trust landing",
+  "conversionGoal": "Make watch care feel premium and safe with calm spacing, warranty language, and direct consultation CTA.",
+  "proofPoints": [
+    "Public profile states watch-related service plus original watches with official warranty messaging.",
+    "Veteran Malang address and review links make location trust a core selling point.",
+    "WhatsApp, payment, Tokopedia, Instagram, and TikTok links support a consultation-to-purchase path."
+  ],
+  "sourceLinks": [
+    {
+      "label": "Everytimewatch Linktree",
+      "url": "https://linktr.ee/everytimewatch"
+    },
+    {
+      "label": "Everytimewatch Instagram",
+      "url": "https://www.instagram.com/everytimewatch"
+    }
+  ],
   "theme": {
     "bg": "#11100d",
     "accent": "#c8a34f",
